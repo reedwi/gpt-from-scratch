@@ -148,3 +148,6 @@ class MLP:
     def parameters(self):
         return [p for layer in self.layers for p in layer.parameters()]
 ```
+
+## makemore from scratch
+Creating makemore from scratch which is karpathy's character level language model that is trained on names and can be used "makemore" names in the end state
